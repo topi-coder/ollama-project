@@ -19,6 +19,7 @@ export default function Home() {
     item.name.toLowerCase().includes(search.toLowerCase())
   );
 
+  
   return (
     <div className="max-w-md mx-auto p-4 space-y-6 pb-20 font-sans">
       <header className="text-center py-6">
